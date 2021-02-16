@@ -1,0 +1,441 @@
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  
+}
+
+.header-wrap {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img{
+  display: block;
+  width: 30%;
+  margin-left: 35px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 30px;
+}
+
+.header-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mv {
+  height: 80vh;
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.mozi-1 {
+  width: 1080px;
+  height:100px; 
+  position:absolute;
+  top: 45%;
+  left:15%;
+}
+
+.technology {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.solving {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.main-1 {
+  height: 304px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.think {
+  height: 144.8px;
+  width: 1080px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  
+}
+
+.section-title-1 h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 48px;
+  width: 1080px;
+  letter-spacing: 0.05em;
+}
+
+.bun p {
+  color: white;
+  height: 76.8px;
+  width: 1080px;
+  line-height: 1.6;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+}
+
+.main-2 {
+  height: 1110px;
+  width: 1080px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.service {
+  height: 48px;
+  width: 1080px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.service p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.zenhan {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.it-gazou img {
+  display: block;
+  width: 529px;
+  height: 317px;
+}
+
+.it-mozi {
+  height: 51px;
+  width: 529px;
+  line-height: 1.5;
+}
+
+.it-mozi h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.coaching-gazou img {
+  display: block;
+  width: 529px;
+  height: 317px;
+}
+
+.coaching-mozi {
+  height: 51px;
+  width: 529px;
+  line-height: 1.5;
+}
+
+.coaching-mozi h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kouhan {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.consult-gazou img {
+  display: block;
+  width: 529px;
+  margin-top: 50px;
+}
+
+.consult-mozi {
+  height: 51px;
+  width: 529px;
+  line-height: 1.5;
+}
+
+.consult-mozi h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.trans-gazou img {
+  display: block;
+  width: 529px;
+  margin-top: 50px;
+}
+
+.trans-mozi {
+  height: 51px;
+  width: 529px;
+  line-height: 1.5;
+}
+
+.trans-mozi h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box1 {
+  width: 300px;
+  height: 50px;
+  background-color: #cd0224;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.box1 p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-3 {
+  width: 100%;
+  height: 444px;
+  background-color: black;
+  position: relative;
+}
+
+.section-title-2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.box2 {
+  width: 160px;
+  height: 36px;
+  background-color: #cd0224;
+  position: absolute;
+  top: 20%;
+  right: 14%;
+  
+
+}
+
+.box2 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.news-content {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+
+.box3 {
+  width: 1080px;
+  height: 65px;
+  background-color: white;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.box3 p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.box3 time {
+  margin-left: 20px;
+}
+
+.main-4 {
+  height: 500px;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  margin: 0 210px;
+}
+
+.section-title-3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.blog-gazou img {
+  display: block;
+  width: 345px;
+  height: 207px;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.blog-mozi time {
+  font-size: 14px;
+}
+
+.blog-mozi h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.box4 {
+  width: 300px;
+  height: 50px;
+  background-color: #cd0224;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.box4 p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-5 {
+  height: 240px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.red-left {
+  height: 240px;
+  width: 50%;
+  background-color: #cd0224;
+}
+
+.red-left p {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align:center;
+  line-height: 240px;
+}
+
+.black-right {
+  height: 240px;
+  width: 50%;
+  background-color: #222222;
+}
+
+.black-right p {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align:center;
+  line-height: 240px;
+}
+
+.main-6 {
+  width: 100%;
+  height: 329px;
+  background-color: #f5f6f9;
+  position: relative;
+}
+
+.main-6 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 25%;
+  left: 44%;
+}
+
+.main-6 p {
+  font-size: 16px;
+  position: absolute;
+  top: 42%;
+  left: 35%;
+   letter-spacing: 0.01em;
+}
+
+.box5 {
+  width: 300px;
+  height: 50px;
+  background-color: #cd0224;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+
+.box5 h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  height: 59px;
+  width: 100%;
+  background-color: #222222; 
+}
+
+.footer-wrap {
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 210px;
+  line-height: 55px;
+}
+
+.footer-logo {
+  font-size: 12px;
+  color: white;
+}
+
+.footer-nav ul {
+  display: flex;
+}
+
+.footer-nav a {
+  color: white;
+  font-size: 12px;
+  margin-right: 30px;
+  text-decoration: none;
+  border-left: 1px solid #ffffff;
+  padding-left: 20px;
+}
+
