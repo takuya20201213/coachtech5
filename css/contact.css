@@ -1,7 +1,6 @@
 body {
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", sans-serif;
 }
-
 .header {
   width: 100%;
   height: 70px;
@@ -55,69 +54,52 @@ body {
 }
 
 .main-1 {
-  height: 320px;
   width: 100%;
+  height: 635px;
 }
 
-.box1 {
-  height: 67px;
+.contact {
   width: 960px;
-  border: 1px solid #000000;
+  height: 475px;
   margin: 0 auto;
+}
+
+.contact-1 label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-top: 30px;
   margin-bottom: 10px;
-  display: flex;
-  line-height: 70px;
 }
 
-.box1 time {
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-.box1 p {
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 20px;
-}
-
-.main-2 {
+.contact-1 input {
+  height: 30px;
   width: 100%;
-  height: 329px;
-  background-color: #f5f6f9;
-  position: relative;
+  border: 1px solid #ccc;
 }
 
-.main-2 h1 {
-  font-size: 30px;
-  font-weight: bold;
-  position: absolute;
-  top: 25%;
-  left: 44%;
+.contact-1 textarea {
+  height: 140px;
+  width: 100%;
+  border: 1px solid #ccc;
 }
 
-.main-2 p {
-  font-size: 16px;
-  position: absolute;
-  top: 42%;
-  left: 35%;
-   letter-spacing: 0.01em;
+.contact-1 span {
+  color: red;
 }
 
-.box2 {
+.btn-area {
+  width: 960px;
+  height: 40px;
+  padding-left: 330px;
+  margin-top: 30px;
+}
+.btn-area input {
+  height: 40px;
   width: 300px;
-  height: 50px;
-  background-color: #cd0224;
-  position: absolute;
-  top: 60%;
-  left: 40%;
-}
-
-.box2 h2 {
-  font-size: 16px;
+  color: #ffffff;
   font-weight: bold;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background-color: #222222;
 }
 
 .footer {
